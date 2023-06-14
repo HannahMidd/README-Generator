@@ -27,9 +27,59 @@ function renderLicenseSection(license) {
   return "";
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
+// Try to add removal of sections that have N/A
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
+  
+  ## Description
+  
+  ${description}
+
+## Table of Contents 
+
+* [Installation](#installation)
+
+* [Usage](#usage)
+${renderLicenseLink(data.license)}
+* [Contributing](#Contributions)
+
+* [Tests](#test)
+
+* [Questions](#questions)
+
+## Installation
+
+To install necessary dependencies, run the following command:
+
+```
+${data.installation}
+```
+
+## Usage
+
+${data.usage}
+
+${renderLicenseSection(data.license)}
+  
+## Contributing
+
+${data.contributions}
+
+## Tests
+
+To run tests, run the following command:
+
+```
+${data.test}
+```
+
+## Questions
+
+Please dont hesitate to reach out via email, ${data.email} with any questions/comments.
+
+Feel free to check out more at [${data.github_name}](https://github.com/${data.github_name}/).
 
 `;
 }
