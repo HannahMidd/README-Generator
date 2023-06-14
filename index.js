@@ -1,7 +1,11 @@
-// TODO: Include packages needed for this application
+// Required Packages:
+// fs = For nodes file system // path = nodes path related functionality // inquirer allows us to use command lines //
+const fs = require("fs");
+const path = require("path");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // Array of questions for user input
-
 const questions = [
   {
     type: "input",
@@ -47,7 +51,20 @@ const questions = [
     type: "list",
     name: "license",
     message: "What kind of license does this project have?",
-    choices: ["None", "APACHE 2.0", "GNU v3.0", "MIT", "BSD 2", "BSD 3", "Boost", "Creative Commons Zero", "Eclipse", "GNU v2.0", "GNU v2.1", "Mozilla", "Unlicense"],
+    choices: [
+      "None",
+      "APACHE_2.0",
+      "GPLv3",
+      "MIT",
+      "BSD_2",
+      "BSD_3",
+      "Boost_1.0",
+      "EPL_1.0",
+      "GPL_v2",
+      "AGPL_v3",
+      "MPL_2.0",
+      "Unlicense",
+    ],
   },
 
   {
@@ -60,8 +77,8 @@ const questions = [
 // Function to write README file
 function writeToFile(fileName, data) {
   // The fs.writeFileSync() function blocks the code from completing UNTIL the answer is submitted.
-  // path.join will join the code already gathered with the code being answered. 
- return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+  // path.join will join the code already gathered with the code being answered.
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // Function to initialize app
@@ -77,4 +94,3 @@ function init() {
 
 // Calling the function
 init();
-
