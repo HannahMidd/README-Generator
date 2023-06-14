@@ -53,9 +53,9 @@ ${renderLicenseLink(data.license)}
 
 To install necessary dependencies, run the following command:
 
-```
+
 ${data.installation}
-```
+
 
 ## Usage
 
@@ -71,9 +71,9 @@ ${data.contributions}
 
 To run tests, run the following command:
 
-```
+
 ${data.test}
-```
+
 
 ## Questions
 

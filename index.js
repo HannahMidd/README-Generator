@@ -1,8 +1,8 @@
 // Required Packages:
 // fs = For nodes file system // path = nodes path related functionality // inquirer allows us to use command lines //
 const fs = require("fs");
-const inquirer = require("inquirer");
 const path = require("path");
+const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // Array of questions for user input
@@ -63,16 +63,16 @@ const questions = [
       "GPL_v2",
       "AGPL_v3",
       "MPL_2.0",
-      "Unlicense",
+      "Unlicense"
     ],
-  },
+    },
+    {
+      type: "input",
+      name: "contributions",
+      message: "How will the end user be able to contribute?",
+    },
+  ];
 
-  {
-    type: "input",
-    name: "contributions",
-    message: "How will the end user be able to contribute?",
-  },
-];
 
 // Function to write README file
 function writeToFile(fileName, data) {
