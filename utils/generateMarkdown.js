@@ -9,13 +9,23 @@ function renderLicenseBadge(license) {
   return "";
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// Function that returns the license link, or if there is no license, an empty string
+function renderLicenseLink(license) {
+  if (license !== "None") {
+    return `\n* [License](#license)\n`;
+  } else
+  return "";
+}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// Function that returns the license section of README, or if there is no license, an empty string
+function renderLicenseSection(license) {
+  if (license !== "none") {
+    return `## License
+
+    This project is licensed under a ${license} license.`;
+  } else 
+  return "";
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {

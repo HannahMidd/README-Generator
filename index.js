@@ -1,8 +1,8 @@
 // Required Packages:
 // fs = For nodes file system // path = nodes path related functionality // inquirer allows us to use command lines //
 const fs = require("fs");
-const path = require("path");
 const inquirer = require("inquirer");
+const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // Array of questions for user input
