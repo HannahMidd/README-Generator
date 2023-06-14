@@ -58,14 +58,23 @@ const questions = [
 ];
 
 // Function to write README file
-writeToFile(fileName, data) => {
+function writeToFile(fileName, data) {
   // The fs.writeFileSync() function blocks the code from completing UNTIL the answer is submitted.
   // path.join will join the code already gathered with the code being answered. 
  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// TODO: Create a function to initialize app
-function init() {}
+// Function to initialize app
+function init() {
+  // inquirer.prompt(questions) will take questions and make into argument to ask the user
+  // then((inquirerResponses) => { will grab responses as "Inquirer Responses"
+  inquirer.prompt(questions).then((inquirerResponses) => {
+    console.log("Generating README...");
+    // Calls our previous "Write to file" function and calls answers to be put into the ReadMe
+    writeToFile("README.md", generateMarkdown({ ...inquirerResponses }));
+  });
+}
 
-// Function call to initialize app
+// Calling the function
 init();
+
