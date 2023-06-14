@@ -57,8 +57,12 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Function to write README file
+writeToFile(fileName, data) => {
+  // The fs.writeFileSync() function blocks the code from completing UNTIL the answer is submitted.
+  // path.join will join the code already gathered with the code being answered. 
+ return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
 function init() {}
