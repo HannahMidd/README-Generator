@@ -29,8 +29,31 @@ const questions = [
 
   {
     type: "input",
-    name: "installation instructions",
-    message: "Provide installation instructions. If none, write N/A. ",
+    name: "installation",
+    message: "Provide installation instructions. If none, write N/A.",
+  },
+
+  {
+    type: "input",
+    name: "usage",
+    message: "Explain how to use your application to the end user",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "Provide test instructions. If none, write N/A. ",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "What kind of license does this project have?",
+    choices: ["None", "APACHE 2.0", "GNU v3.0", "MIT", "BSD 2", "BSD 3", "Boost", "Creative Commons Zero", "Eclipse", "GNU v2.0", "GNU v2.1", "Mozilla", "Unlicense"],
+  },
+
+  {
+    type: "input",
+    name: "contributions",
+    message: "How will the end user be able to contribute?",
   },
 ];
 
