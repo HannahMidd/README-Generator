@@ -34,7 +34,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Provide installation instructions. If none, write N/A.",
+    message: "Provide installation instructions (including starting command). If none, write N/A.",
   },
 
   {

@@ -35,7 +35,7 @@ function generateMarkdown(data) {
   
   ## Description
   
-  ${description}
+  ${data.description}
 
 ## Table of Contents 
 
@@ -51,7 +51,7 @@ ${renderLicenseLink(data.license)}
 
 ## Installation
 
-To install necessary dependencies, run the following command:
+To install necessary dependencies / get started, run the following command:
 
 
 ${data.installation}
@@ -79,7 +79,8 @@ ${data.test}
 
 Please dont hesitate to reach out via email, ${data.email} with any questions/comments.
 
-Feel free to check out more at [${data.github_name}](https://github.com/${data.github_name}/).
+Feel free to check out more at my Github ([${data.github_name}]) at 
+(https://github.com/${data.github_name}/).
 
 `;
 }
