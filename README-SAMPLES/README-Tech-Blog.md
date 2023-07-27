@@ -1,9 +1,9 @@
-# Art By Hannah
+# Tech Blog
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description
   
-  Art By Hannah is my personal website and portfolio for my creative side: textured artwork! I started doing art from a very young age, but recently decided to release it to the world and begin selling it. This is my launch, enjoy! 
+  As a developer, it is crucial to have a space to write about coding, ask questions about coding, or post findings about things that you have learned or helped you. This tech blog will allow coders from around the world to interact through posts and replies to those posts. 
 
 ## Table of Contents 
 
@@ -24,12 +24,12 @@
 To install necessary dependencies / get started, run the following command:
 
 
-Head over to the following URL: 
+Go to the application at and create an account (or log in if you already have an account). Make posts, or reply to the posts of other users within the application. 
 
 
 ## Usage
 
-Explore the Home page, Gallery, About Me section, or utilize my form under "Custom Pieces" to request a special art piece. Don't by shy!
+Follow the prompts to post, delete, or comment within your own posts or the posts of others. If you have coding questions or advice to give, please dont hesitate to make a post! 
 
 ## License
 
@@ -37,7 +37,7 @@ Explore the Home page, Gallery, About Me section, or utilize my form under "Cust
   
 ## Contributing
 
-Please feel free to leave feedback and constructive criticism. 
+Please feel free to leave feedback and constuctive criticism, lets keep improving! 
 
 ## Tests
 

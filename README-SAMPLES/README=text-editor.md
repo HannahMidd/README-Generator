@@ -1,9 +1,9 @@
-# Art By Hannah
+# Text Editor
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description
   
-  Art By Hannah is my personal website and portfolio for my creative side: textured artwork! I started doing art from a very young age, but recently decided to release it to the world and begin selling it. This is my launch, enjoy! 
+  This Progressive Web Applications Text Editor will allow users to utilize a text editor that runs in the browser. This is a single page application that utilized full stack tech.
 
 ## Table of Contents 
 
@@ -24,12 +24,12 @@
 To install necessary dependencies / get started, run the following command:
 
 
-Head over to the following URL: 
+Go to the following URL to install and access the text editor:
 
 
 ## Usage
 
-Explore the Home page, Gallery, About Me section, or utilize my form under "Custom Pieces" to request a special art piece. Don't by shy!
+After installing and running "npm start" you will notice the application will start up on the backend and serve the client. Once running the text editor from your terminal, you will find that your JS files have been bundled using webpack. When you run your webpack plugings, you will see that you have generated an HTML file, service worker and manifest file. 
 
 ## License
 
@@ -37,7 +37,7 @@ Explore the Home page, Gallery, About Me section, or utilize my form under "Cust
   
 ## Contributing
 
-Please feel free to leave feedback and constructive criticism. 
+Please feel free to leave comments and constuctive feedback! 
 
 ## Tests
 

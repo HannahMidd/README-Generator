@@ -24,12 +24,14 @@
 To install necessary dependencies / get started, run the following command:
 
 
-Head over to the following URL: 
+Head over to the following URL: https://hannahmidd.github.io/Art-By-Hannah/
 
 
 ## Usage
 
 Explore the Home page, Gallery, About Me section, or utilize my form under "Custom Pieces" to request a special art piece. Don't by shy!
+
+!
 
 ## License
 

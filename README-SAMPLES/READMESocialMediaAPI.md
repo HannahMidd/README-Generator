@@ -1,9 +1,9 @@
-# Art By Hannah
+# Social Media API
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description
   
-  Art By Hannah is my personal website and portfolio for my creative side: textured artwork! I started doing art from a very young age, but recently decided to release it to the world and begin selling it. This is my launch, enjoy! 
+  This API allows for Social Media startups to safely store and handle large amounts of unstructured data.
 
 ## Table of Contents 
 
@@ -24,12 +24,12 @@
 To install necessary dependencies / get started, run the following command:
 
 
-Head over to the following URL: 
+Use "npm i" to install necessary packages. Then use "node server" to see what server we are listening on.  You will need insomnia to use and test these routes. 
 
 
 ## Usage
 
-Explore the Home page, Gallery, About Me section, or utilize my form under "Custom Pieces" to request a special art piece. Don't by shy!
+Using GET, POST and DELETE routes, you can add users, assosicate thoughts, and  reactions. You can also search for a user by ID, or by finding all. Please watch the following video for a walkthroguh of how to use the platform: 
 
 ## License
 
@@ -37,7 +37,7 @@ Explore the Home page, Gallery, About Me section, or utilize my form under "Cust
   
 ## Contributing
 
-Please feel free to leave feedback and constructive criticism. 
+Please feel free to leave any questions / constructive criticism. 
 
 ## Tests
 

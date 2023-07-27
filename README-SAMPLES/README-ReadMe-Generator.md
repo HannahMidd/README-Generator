@@ -1,9 +1,9 @@
-# Art By Hannah
+# ReadMe Generator
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description
   
-  Art By Hannah is my personal website and portfolio for my creative side: textured artwork! I started doing art from a very young age, but recently decided to release it to the world and begin selling it. This is my launch, enjoy! 
+  This ReadMe Generator will help speed up the process for creating detailed ReadMe files, ensuring that Repo creators can quickly and accurately provide information. (edited) 
 
 ## Table of Contents 
 
@@ -24,12 +24,16 @@
 To install necessary dependencies / get started, run the following command:
 
 
-Head over to the following URL: 
+node index.js
 
 
 ## Usage
 
-Explore the Home page, Gallery, About Me section, or utilize my form under "Custom Pieces" to request a special art piece. Don't by shy!
+Once running command "node index.js", you will prompted to answer questions related to the ReadMe file. Answers will then be pushed into your ReadMe file.
+
+
+Feel free to check out [this video walkthrough](https://drive.google.com/file/d/1R_pueC3LoXyOCgowTs5wH6POpie3PObl/view) of how to utilize the ReadMe Generator.
+
 
 ## License
 
@@ -37,7 +41,7 @@ Explore the Home page, Gallery, About Me section, or utilize my form under "Cust
   
 ## Contributing
 
-Please feel free to leave feedback and constructive criticism. 
+Feel free to leave comments and constructive criticism!
 
 ## Tests
 

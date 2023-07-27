@@ -1,9 +1,9 @@
-# Art By Hannah
+# Employee Tracker
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description
   
-  Art By Hannah is my personal website and portfolio for my creative side: textured artwork! I started doing art from a very young age, but recently decided to release it to the world and begin selling it. This is my launch, enjoy! 
+  Using the Employee Tracker, business owners can view and manage departments, roles and i employees to better plan
 
 ## Table of Contents 
 
@@ -24,12 +24,12 @@
 To install necessary dependencies / get started, run the following command:
 
 
-Head over to the following URL: 
+To start the Employee Tracker, use the command 'node index'
 
 
 ## Usage
 
-Explore the Home page, Gallery, About Me section, or utilize my form under "Custom Pieces" to request a special art piece. Don't by shy!
+Once using the command line of 'node index', you will be prompted to select from a list of desired actions, including viewing information, creating or deleting existing information, etc regarding employees, roles, departments, managers, salaries, etc.
 
 ## License
 
@@ -37,7 +37,7 @@ Explore the Home page, Gallery, About Me section, or utilize my form under "Cust
   
 ## Contributing
 
-Please feel free to leave feedback and constructive criticism. 
+Please feel free to leave constructive criticism and feedback.
 
 ## Tests
 
